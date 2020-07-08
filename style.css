@@ -152,7 +152,7 @@ p {
 
 .footer {
   font-size: 0.9em;
-  color: white;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -236,15 +236,6 @@ p {
   text-align: center;
 }
 
-
-.footer {
-  font-size: 0.9em;
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-
-}
-
 .copyright {
   font-size: 0.9em;
   color: #fff;
@@ -276,7 +267,7 @@ p {
 .quote {
   font-family: 'Montserrat', sans-serif;
   color: #31AEFA;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
   text-align:center;
   padding: 15px 0 15px 0;
@@ -304,7 +295,7 @@ p {
 
 /* Media Queries */
 
-@media(max-width:650px){
+@media(max-width:700px){
 
 /*How to Make it fit the page with all sizes*/
 
@@ -324,6 +315,121 @@ p {
 
 .head {
   font-size:2em;
+}
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  color: #31AEFA;
+  font-size: 2em;
+  font-weight: 700;
+  text-align:center;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #31AEFA;
+  border-bottom: 1px solid #31AEFA;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote-attribution {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .5em;
+  font-weight: 100;
+  text-align:right;
+  color:#000;
+}
+
+.hero-head {
+}
+}
+
+@media(max-width:1400px){
+
+/*How to Make it fit the page with all sizes*/
+
+.card {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  padding-left:20px;
+  padding-right:10px;
+}
+
+.chapter-head {
+  font-size:1.25em;
+}
+
+.head {
+  font-size:2em;
+}
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  color: #31AEFA;
+  font-size: 2em;
+  font-weight: 700;
+  text-align:center;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #31AEFA;
+  border-bottom: 1px solid #31AEFA;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote-attribution {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .5em;
+  font-weight: 100;
+  text-align:right;
+  color:#000;
+}
+
+.hero-head {
+}
+}
+
+@media(max-width:1200px){
+
+/*How to Make it fit the page with all sizes*/
+
+.card {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  padding-left:20px;
+  padding-right:10px;
+}
+
+.chapter-head {
+  font-size:1.25em;
+}
+
+.head {
+  font-size:2em;
+}
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  color: #31AEFA;
+  font-size: 2em;
+  font-weight: 700;
+  text-align:center;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #31AEFA;
+  border-bottom: 1px solid #31AEFA;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote-attribution {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .5em;
+  font-weight: 100;
+  text-align:right;
+  color:#000;
 }
 
 .hero-head {
